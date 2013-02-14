@@ -5,10 +5,10 @@ describe StaticPagesController do
     it "returns http success" do
 <<<<<<< HEAD
       "get '...'"
-=======
+======= 
       "get 'user/new'"
 >>>>>>> modeling-users
       response.should be_success
-    end
+   end
   end
 end
