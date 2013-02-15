@@ -25,15 +25,7 @@ describe StaticPagesController do
 
   describe "GET 'contact'" do
     it "returns http success" do
-<<<<<<< HEAD
       get 'contact'
-=======
-<<<<<<< HEAD
-      "get '...'"
-======= 
-      "get 'user/new'"
->>>>>>> modeling-users
->>>>>>> sign-up
       response.should be_success
    end
   end
